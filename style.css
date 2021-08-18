@@ -10,12 +10,24 @@ body{
 header{
     background-color:skyblue;
     padding-top: 20px;
-    height: 550px;
+    height: auto;
 }
 .top-section{
-    display: flex;
-    justify-content: center;
+    margin-left: 200px;
 }
+.top-section{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+}
+.heading-banner{
+    overflow: hidden;
+}
+.top-section:hover .heading-banner img{
+    transform: scale(1.3) rotate(360deg);   
+    transition: transform 1s ease-in-out;
+}
+
 header img{
     height: 438px;
     width: 556px;
@@ -77,4 +89,22 @@ footer{
     padding: 12px;
     border-radius: 25px;
 
+}
+
+
+/* media-query-for-mobile-devices */
+
+@media only screen and (max-width:650px) {
+    
+    .top-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+
+    .all-players{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
