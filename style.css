@@ -1,0 +1,36 @@
+/* --------------- common styles ------------ */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ /* header styles */
+header{
+    background-color:skyblue;
+    padding-top: 20px;
+    height: 550px;
+}
+.top-section{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    height: 438px;
+    width: 556px;
+}
+header h1{
+    font-size:60px;
+    color: white;
+}
+.header-button{
+    color: white;
+    background-color: tomato;
+    padding:10px 20px;
+    border-radius: 3px;
+    border: 1px solid tomato;
+    font-weight: bold;
+}
+
+
