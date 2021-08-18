@@ -37,3 +37,27 @@ header h1{
 }
 
 
+/* main-section-styles */
+.main-section{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.players{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 3px;
+    width: 332px;
+    padding:10px;
+    margin-bottom: 25px;
+}
+.players-thumbnail-image img{
+    height: 390px;
+    width: 330px; 
+}
+.players-info p{
+    color: gray;
+}
+
