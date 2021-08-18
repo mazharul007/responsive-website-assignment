@@ -61,3 +61,20 @@ header h1{
     color: gray;
 }
 
+/* footer-style */
+footer{
+    margin-top: 70px;
+    text-align: center;
+}
+.footer-logo img{
+    height: 60px;
+    width: auto;
+}
+
+.footer-icon i{
+    color: dimgray;
+    background-color: lightgray;
+    padding: 12px;
+    border-radius: 25px;
+
+}
